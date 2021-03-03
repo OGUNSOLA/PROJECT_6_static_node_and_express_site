@@ -1,0 +1,34 @@
+{
+    "projects":[
+        {
+            "id": 0,
+            "project_name": "Rando Quote Generator",
+            "description": " Generates a random quote each time a button is clicked",
+            "technologies": ["HTML", "CSS", "JavaScipt"],
+            "live_link": "http://olubukola.me/PROJECT_1_RANDOM-QUOTE-GENERATOR/",
+            "github_link": "https://github.com/OGUNSOLA/PROJECT_1_RANDOM-QUOTE-GENERATOR",
+            "image_url": ["/images/random_quote/0.jpg","/images/random_quote/1.jpg","/images/random_quote/2.jpg"]
+        },
+        {
+            "id": 1,
+            "project_name": "Pagination",
+            "description": "Displays a serachable list of student profiles",
+            "technologies": ["HTML", "CSS", "JavaScipt"],
+            "live_link": "http://olubukola.me/PROJECT_2_DATA_PAGINATION_AND_FILTERING/",
+            "github_link": "https://github.com/OGUNSOLA/PROJECT_2_DATA_PAGINATION_AND_FILTERING",
+            "image_url": ["images/pagination/0.jpg","images/pagination/1.jpg","images/pagination/2.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Web Form",
+            "description": "An interactive web form",
+            "technologies": ["HTML", "CSS", "JavaScipt"],
+            "live_link": "http://olubukola.me/PROJECT_3_INTERACTIVE_FORM/",
+            "github_link": "https://github.com/OGUNSOLA/PROJECT_3_INTERACTIVE_FORM",
+            "image_url": ["images/web_form/0.jpg","images/web_form/1.jpg","images/web_form/2.jpg","images/web_form/3.jpg"]
+
+        },
+        {},
+        {}
+    ]
+}
