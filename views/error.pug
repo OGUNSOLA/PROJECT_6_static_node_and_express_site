@@ -5,6 +5,6 @@ nav.nav
     a(href='/')
       span &larr;
       |  Back
-
-h1.error Server Error
+h1.error= ` ${err.message}`
+h1.error= `Error status code: ${err.status}  -Server Error`
 img.error_img(src='/images/server_error.jpg')

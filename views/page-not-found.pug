@@ -6,6 +6,5 @@ block content
             span &larr;
             |  Back
     h1.error= `404 - Page Not Found`
-    p.error= `Oops!  It looks like the project you're looking for does not exist yet.`
+    p.error= `${err.message}`
     img.error_img(src='/images/404_Error.jpg')
-

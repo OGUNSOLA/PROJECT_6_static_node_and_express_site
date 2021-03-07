@@ -33,19 +33,18 @@ app.get("/projects/:id",(req, res, next)=>{
   if(project){
         res.render('project', {project:project});
   }else {
-    const err = new Error();
-    err.status = 404;
-    err.message = " oh oh!. Looks like the project you are looking for doesnt exist yet! "
-    next(err);
+    next();
   }
 });
 
 
 // 404 error handler
 app.use(( req, res, next)=>{
+  const err = new Error();
+  err.status = 404;
+  err.message = " oh oh!. Looks like the project you are looking for doesnt exist yet! ";
+  next(err);
 
-  res.status(404).render('page-not-found');
-  console.log(err.message, err.status);
 
 });
 
@@ -58,12 +57,10 @@ app.use(( err, req, res, next) => {
 
     if (err.status === 404) {
       res.status(404).render('page-not-found', { err });
-      console.log(err.message, err.status);
 
     } else {
       err.message = err.message || `Bummer!  It looks like something went wrong on the server.`;
       res.status(err.status || 500).render('error', { err });
-      console.log(err.message, err.status);
   
     }
   }
