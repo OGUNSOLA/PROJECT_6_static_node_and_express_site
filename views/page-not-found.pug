@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+    nav.nav
+        a(href='/')
+            span &larr;
+            |  Back
+    h1.error= `404 - Page Not Found`
+    p.error= `Oops!  It looks like the project you're looking for does not exist yet.`
+    img.error_img(src='/images/404_Error.jpg')
+
