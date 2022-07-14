@@ -1,45 +1,71 @@
 {
-    "projects":[
-        {
-            "id": 0,  
-            "project_name": "Random Quote Generator",
-            "description": " This app generates a random quote ach time a button is clicked . A quote is also generated every 2 secs. The backgrond color of the quotes changes randomly",
-            "technologies": ["HTML", "CSS", "JavaScipt"],
-            "live_link": "http://olubukola.me/PROJECT_1_RANDOM-QUOTE-GENERATOR/",
-            "github_link": "https://github.com/OGUNSOLA/PROJECT_1_RANDOM-QUOTE-GENERATOR",
-            "image_url": ["/images/random_0.jpg", "/images/random_1.jpg", "/images/random_2.jpg"]
-        },
-        {
-            "id": 1,
-            "project_name": "Pagination",
-            "description": "This app displays a serachable list of student profiles. Names can be serched and the pagiation display changes based on number of result received.",
-            "technologies": ["HTML", "CSS", "JavaScipt"],
-            "live_link": "http://olubukola.me/PROJECT_2_DATA_PAGINATION_AND_FILTERING/",
-            "github_link": "https://github.com/OGUNSOLA/PROJECT_2_DATA_PAGINATION_AND_FILTERING",
-            "image_url": ["/images/pagination_0.jpg","/images/pagination_1.jpg","/images/pagination_2.jpg"]
-        },
-        {
-            "id": 2,
-            "project_name": "Web Form",
-            "description": "An interactive web form. Client side validation is implemented in this project",
-            "technologies": ["HTML", "CSS", "JavaScipt"],
-            "live_link": "http://olubukola.me/PROJECT_3_INTERACTIVE_FORM/",
-            "github_link": "https://github.com/OGUNSOLA/PROJECT_3_INTERACTIVE_FORM",
-            "image_url": ["/images/web_form_0.jpg","/images/web_form_1.jpg","/images/web_form_2.jpg","images/web_form_3.jpg"]
-        },
-        {"id": 3,
-            "project_name": "OOP Game Show",
-            "description": "A phrase hunter game built with JavaScript object. A phrase is loaded but hidden. You try to guess the phrase. You lose if after five attempt you have not revealed the phrase",
-            "technologies": ["HTML", "CSS", "JavaScipt"],
-            "live_link": "http://olubukola.me/PROJECT_4_OOP_GAME_SHOW/",
-            "github_link": "https://github.com/OGUNSOLA/PROJECT_4_OOP_GAME_SHOW",
-            "image_url": ["/images/phase_hunter_0.jpg","/images/phase_hunter_1.jpg","/images/phase_hunter_2.jpg","/images/phase_hunter_3.jpg"]},
-        {"id": 4,
-            "project_name": "Public API Request",
-            "description": "Getting data from a public API",
-            "technologies": ["HTML", "CSS", "JavaScipt", "API"],
-            "live_link": "http://olubukola.me/PROJECT_5_public_api_request",
-            "github_link": "https://github.com/OGUNSOLA/PROJECT_5_public_api_request",
-            "image_url": ["/images/api_0.jpg","/images/api_1.jpg","/images/api_2.jpg"]}
-    ]
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": " This app generates a random quote ach time a button is clicked . A quote is also generated every 2 secs. The backgrond color of the quotes changes randomly",
+      "technologies": ["HTML", "CSS", "JavaScipt"],
+      "live_link": "http://olubukola.ca/PROJECT_1_RANDOM-QUOTE-GENERATOR/",
+      "github_link": "https://github.com/OGUNSOLA/PROJECT_1_RANDOM-QUOTE-GENERATOR",
+      "image_url": [
+        "/images/random_0.jpg",
+        "/images/random_1.jpg",
+        "/images/random_2.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Pagination",
+      "description": "This app displays a serachable list of student profiles. Names can be serched and the pagiation display changes based on number of result received.",
+      "technologies": ["HTML", "CSS", "JavaScipt"],
+      "live_link": "http://olubukola.ca/PROJECT_2_DATA_PAGINATION_AND_FILTERING/",
+      "github_link": "https://github.com/OGUNSOLA/PROJECT_2_DATA_PAGINATION_AND_FILTERING",
+      "image_url": [
+        "/images/pagination_0.jpg",
+        "/images/pagination_1.jpg",
+        "/images/pagination_2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Web Form",
+      "description": "An interactive web form. Client side validation is implemented in this project",
+      "technologies": ["HTML", "CSS", "JavaScipt"],
+      "live_link": "http://olubukola.ca/PROJECT_3_INTERACTIVE_FORM/",
+      "github_link": "https://github.com/OGUNSOLA/PROJECT_3_INTERACTIVE_FORM",
+      "image_url": [
+        "/images/web_form_0.jpg",
+        "/images/web_form_1.jpg",
+        "/images/web_form_2.jpg",
+        "images/web_form_3.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show",
+      "description": "A phrase hunter game built with JavaScript object. A phrase is loaded but hidden. You try to guess the phrase. You lose if after five attempt you have not revealed the phrase",
+      "technologies": ["HTML", "CSS", "JavaScipt"],
+      "live_link": "http://olubukola.ca/PROJECT_4_OOP_GAME_SHOW/",
+      "github_link": "https://github.com/OGUNSOLA/PROJECT_4_OOP_GAME_SHOW",
+      "image_url": [
+        "/images/phase_hunter_0.jpg",
+        "/images/phase_hunter_1.jpg",
+        "/images/phase_hunter_2.jpg",
+        "/images/phase_hunter_3.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Request",
+      "description": "Getting data from a public API",
+      "technologies": ["HTML", "CSS", "JavaScipt", "API"],
+      "live_link": "http://olubukola.ca/PROJECT_5_public_api_request",
+      "github_link": "https://github.com/OGUNSOLA/PROJECT_5_public_api_request",
+      "image_url": [
+        "/images/api_0.jpg",
+        "/images/api_1.jpg",
+        "/images/api_2.jpg"
+      ]
+    }
+  ]
 }
